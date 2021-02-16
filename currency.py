@@ -11,6 +11,8 @@ help_string = ("\n|EUR - Euro Member Countries |IDR - Indonesia Rupiah |BGN - Bu
                   "|HKD - Hong Kong Dollar |AUD - Australia Dollar |CHF - Switzerland Franc |KRW - Korea (South) Won |CNY - China Yuan Renminbi |TRY - Turkey Lira |HRK - Croatia Kuna \n\n"
                   "|NZD - New Zealand Dollar |THB - Thailand Baht |USD - United States Dollar |NOK - Norway Krone |RUB - Russia Ruble |INR - India Rupee |MXN - Mexico Peso \n\n"
                   "|CZK - Czech Republic Koruna |BRL - Brazil Real |PLN - Poland Zloty |PHP - Philippines Peso |ZAR - South Africa Rand\n")
+
+
 def main():
     currency1, currency2 = get_currencies()
     converting(currency1, currency2)
@@ -21,6 +23,7 @@ def main():
         main()
     else:
         exit()
+
 
 def get_currencies():
 
