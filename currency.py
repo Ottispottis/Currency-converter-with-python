@@ -1,3 +1,12 @@
+"""
+Author: Otto Heldt
+
+Version: 1.0
+
+A simple currency converter that can convert one currency to another one with realtime currency conversion rates.
+
+"""
+
 from forex_python.converter import CurrencyRates
 
 rates = CurrencyRates()
